@@ -8,7 +8,7 @@
            containers:
            - name: build-agent
              image: maven:alpine
-	     ttyEnabled: true
+	     tty: true
              command: ['cat']
 	   serviceAccountName: jenkins-admin
          '''
