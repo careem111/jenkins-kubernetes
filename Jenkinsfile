@@ -20,7 +20,7 @@
       stage('Build') {
     	   steps{
     	     container('build-agent')
-	           sh 'mvn -version'
+	           sh 'date'
         	     }
             }
         } 
