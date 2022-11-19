@@ -10,6 +10,8 @@
              image: careem785/jenkins-build-agent:1.0
              command: ['cat']
 	     ttyEnabled: true
+	     workingDir: /home/jenkins
+	     alwaysPullImage: false
          '''
         }
     }
