@@ -9,8 +9,8 @@
            - name: build-agent
              image: careem785/jenkins-build-agent:1.0
              command: ['cat']
-	     workingDir: /home/jenkins
-	     alwaysPullImage: false
+             workingDir: /home/jenkins
+             alwaysPullImage: false
          '''
         }
     }
