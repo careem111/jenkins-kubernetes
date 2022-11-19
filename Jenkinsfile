@@ -26,18 +26,12 @@ pipeline{
         }
     }
     steps{
-                steps{
                     git 'https://github.com/careem111/helloworld1_private.git'
                     sh 'mvn clean install package'
                     sh 'sudo -i;cp webapps/target/*.war /root/images'
                     sh 'docker build'
-                	}
-        	}
 
-                
+        	}
             }
         } 
     }
- 
-
-
