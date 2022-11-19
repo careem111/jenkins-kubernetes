@@ -9,7 +9,7 @@
            - name: build-agent
              image: maven:alpine
              command: ['cat']
-	     tty: true
+	     ttyEnabled: true
          '''
         }
     }
