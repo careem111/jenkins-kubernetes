@@ -8,9 +8,9 @@
            containers:
            - name: build-agent
              image: maven:alpine
-             tty: true
-             command: 
+             command:
 	     - cat
+	     tty: true
          '''
         }
     }
