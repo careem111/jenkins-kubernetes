@@ -8,7 +8,7 @@
            containers:
            - name: build-agent
              image: maven:alpine
-             command: ['cat']
+             command: 'cat'
              ttyEnabled: true
          '''
         }
