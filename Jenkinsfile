@@ -9,7 +9,6 @@
            - name: build-agent
              image: maven:alpine
              command: ['cat']
-	   serviceAccountName: jenkins-admin
          '''
         }
     }
