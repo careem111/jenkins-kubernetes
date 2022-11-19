@@ -7,10 +7,8 @@
          spec:
            containers:
            - name: build-agent
-             image: careem785/jenkins-build-agent:1.0
-             ttyEnabled: true
-             workingDir: /home/jenkins
-             alwaysPullImage: false
+             image: maven:alpine
+             tty: true
              command: ['cat']
              serviceAccountName: jenkins-admin
          '''
@@ -20,7 +18,7 @@
       stage('Build') {
     	steps{
     	  container('build-agent')
-	    sh 'date'
+	    sh 'mvn -version'
         	}
             }
         } 
