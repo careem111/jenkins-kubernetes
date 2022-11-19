@@ -11,6 +11,8 @@
              command: ['cat']
              workingDir: /home/jenkins
              alwaysPullImage: false
+             ttyEnabled: true
+           serviceAccountName: jenkins-admin
          '''
         }
     }
