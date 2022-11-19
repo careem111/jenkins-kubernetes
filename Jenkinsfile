@@ -9,7 +9,7 @@
          spec:
            containers:
            - name: build-agent
-             image: maven:alpine
+             image: careem785/jenkins-build-agent:1.0
              command: 
               - cat
              tty: true
