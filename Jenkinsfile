@@ -12,7 +12,7 @@
              workingDir: /home/jenkins
              alwaysPullImage: false
              command: ['cat']
-             serviceAccountName: jenkins-agent-sa
+             serviceAccountName: jenkins-agent-ca
          '''
         }
     }
