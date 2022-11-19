@@ -5,7 +5,7 @@
          apiVersion: v1
          kind: Pod
          metadata:
-	   name: mypod
+           name: mypod
          spec:
            containers:
            - name: build-agent
