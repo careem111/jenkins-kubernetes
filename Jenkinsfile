@@ -19,9 +19,10 @@
     stages {
       stage('Build') {
     	   steps{
-    	     container('build-agent')
-	           sh 'date'
-        	     }
+	     container('build-agent'){
+	       sh 'date'
+        	}
+	      }
             }
         } 
   }
