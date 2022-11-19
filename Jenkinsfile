@@ -10,6 +10,7 @@
              image: maven:alpine
 	     ttyEnabled: true
              command: ['cat']
+	   serviceAccountName: jenkins-admin
          '''
         }
     }
